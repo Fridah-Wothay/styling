@@ -1,4 +1,4 @@
-import UserCard from "./index.css";
+import './index.css';
 
 
 const UserCard = ({image, fullName}) => {
