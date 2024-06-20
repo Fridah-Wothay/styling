@@ -3,19 +3,31 @@
 form{
     width: 60%;
     border: solid 1px;
+    margin-left: 330px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 input{
     width: 95%;
     margin: 2% 0;
     padding: 16px 12px;
+   
 }
 button{
     padding: 12px 10px;
-    width: 97%;
+    width: 98%;
     border: none;
-    background-color: rgb(137,161,105);
+    background-color: rgb(107, 168, 15);
     color: #ffff;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+
+h2{
+    color: rgb(4, 7, 0);
+    font-size: xx-large;
 }

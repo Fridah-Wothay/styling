@@ -1,5 +1,5 @@
 #image{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5%;
+    column-count: 5;
+    text-align: center;
 }
+
