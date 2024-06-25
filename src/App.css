@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.modal{
+  text-align: center;
+  display: block;
+  padding: 30px;
+  margin: auto;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

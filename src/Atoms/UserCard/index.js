@@ -4,7 +4,7 @@ import './index.css';
 const UserCard = ({image, fullName}) => {
  return(
     <div>
-        <img src={image} alt={'${fulName} profile'}/>
+        <img src={image} alt={`${fullName} profile`}/>
         <h3>{fullName}</h3>
     </div>
  )   

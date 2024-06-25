@@ -1,7 +1,7 @@
-
+const baseUrl = process.env.REACT_APP_BASE_URL;
 
 export const login = async ({username, password}) => {
-    const baseUrl = process.loadEnvFile.REACT_APP_BASE_URL;
+    
     try{
         const response = await fetch(`${baseUrl}/auth/login`,{
             method: "POST",
